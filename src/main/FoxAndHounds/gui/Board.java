@@ -3,8 +3,9 @@ package main.FoxAndHounds.gui;
 import java.awt.Color;
 import java.awt.GridLayout;
 import javax.swing.JPanel;
-import main.FoxAndHounds.service.Coordinates;
 import main.FoxAndHounds.service.Status;
+import main.FoxAndHounds.service.Coordinates;
+
 
 public class Board extends JPanel {
     private Animals fox;

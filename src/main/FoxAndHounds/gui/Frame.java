@@ -15,6 +15,7 @@ public class Frame extends JFrame {
 
         setLayout(new FlowLayout());
         add(boardPanel);
+        repaint();
         setVisible(true);
     }
 }

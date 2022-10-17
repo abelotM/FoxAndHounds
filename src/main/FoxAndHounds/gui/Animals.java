@@ -12,7 +12,7 @@ public class Animals extends JLabel {
 
     public Animals(String name) {
 
-        icon = new  ImageIcon(getClass().getResource("/FoxAndHounds/gui" + name));
+        icon = new  ImageIcon(getClass().getResource("/FoxAndHounds/gui/" + name));
         backGround = Color.BLACK;
         setIcon(icon);
     }

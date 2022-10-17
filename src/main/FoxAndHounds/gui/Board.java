@@ -28,9 +28,9 @@ public class Board extends JPanel {
             add(square);
         }
 
-        fox = new Animals("image/fox.png");
+        fox = new Animals("fox.png");
         for (int i = 0; i < 4; ++i) {
-            hounds[i] = new Animals("image/hound.png");
+            hounds[i] = new Animals("hound.png");
         }
     }
 

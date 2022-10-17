@@ -72,7 +72,6 @@
                 <version>0.8.2</version>
                 <configuration>
                     <excludes>
-                        <exclude>main/FoxAndHounds/model/*</exclude>
                         <exclude>main/FoxAndHounds/gui/Main.*</exclude>
 
                     </excludes>

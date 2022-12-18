@@ -60,6 +60,7 @@ public class Start implements Runnable {
                 if (s.equals(nextCurrentState)) {
                     fox.move(state, nextCurrentState);
                     if (nextCurrentState.isFinal()) {
+
                         // update final Q-values and restart the game
                         hounds.move(nextCurrentState);
                         fox.move(nextCurrentState);
